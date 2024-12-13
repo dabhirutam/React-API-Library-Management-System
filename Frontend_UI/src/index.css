@@ -1,0 +1,39 @@
+body {
+  background: linear-gradient(0deg, #000000e1, #00000094), url(images/bg-book.jpg) center no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.table{
+  /* --bs-table-bg: transparent !important; */
+  --bs-table-bg: #00000061 !important;
+  --bs-table-hover-bg: #0000003a !important;
+  --bs-table-color: #fff !important;
+  --bs-table-hover-color: #fff !important;
+  --bs-table-border-color: #8181815e !important;
+  line-height: 2rem;
+  cursor: pointer;
+}
+
+.table-dark{
+  --bs-table-bg: #0000006e !important;
+}
+
+.table-dark tr, th, td{
+  border: none !important;
+}
+
+.modal-content{
+  background-color: transparent !important;
+}
+
+.form-control{
+  background-color: #000000ba !important;
+  border: 1px solid #8181815e !important;
+  box-shadow: none !important;
+  color: #fff !important;
+
+  &::placeholder{
+    color: #fff !important;
+  }
+}
